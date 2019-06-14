@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>ResumenFirebase</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header>
+        <h1>Integración de Firebase a una aplicación móvil.</h1>
+    </header>
+    <section>
+        <article>
+            <h2>¿Qué es Firebase?.</h2>
+            <p>Firebase es un conjunto de herramientas orientadas a la creación de aplicaciones de alta calidad, al
+                crecimiento de los usuarios y a ganar más dinero. Se puede describir la plataforma como una suite de
+                diferentes
+                aplicaciones que nos harán más fácil el desarrollo de nuestra aplicación.</p>
+            <div>
+                <p> He aquí un vídeo del canal de
+                    Firebase que explica el servicio:</p>
+                <a href="https://youtu.be/iosNuIdQoy8"> Firebase</a>
+            </div>
+            <h2>¿Cómo podemos integrar Firebase a nuestro proyecto?.</h2>
+
+            <p>Hay dos opciones para agregar Firebase a nuestro proyecto. Una es por consola, y la otra es atraves de
+                Firebase Assistant. A continuación mencionaremos los pasos para cada opción.</p>
+
+            <h3>Firebase mediante Firebase console.</h3>
+            <p>Paso 1: Crea un proyecto de Firebase.</p>
+            <p>A fin de poder agregar Firebase a tu app para Android, debes crear un proyecto de Firebase y conectarlo
+                a la app. Consulta la Información sobre los proyectos de Firebase para obtener detalles acerca del
+                tema.</p>
+            <p>Paso 2: Registra tu app con Firebase.</p>
+            <p>Cuando tengas un proyecto de Firebase, podrás agregarle tu app para Android.
+
+                Revisa la Información sobre los proyectos de Firebase a fin de obtener detalles sobre las
+                recomendaciones y consideraciones para agregar apps a un proyecto de Firebase, incluido cómo manejar
+                diversas variantes de compilación.</p>
+            <p>Paso 3: Agrega un archivo de configuración de Firebase.</p>
+            <p>Agrega el archivo de configuración de Firebase para Android a la app</p>
+            <p>Agrega el complemento de google-services a tus archivos Gradle a fin de habilitar los productos de
+                Firebase en tu app.</p>
+            <p>Paso 4: Agrega los SDK de Firebase a tu app.</p>
+
+            <h3>Firebase mediante Firebase Assistant</h3>
+            <p>1. Abre tu proyecto de Android en Android Studio.</p>
+            <p>2. Selecciona Herramientas > Firebase para abrir la ventana del Asistente.</p>
+            <p>3. Haz clic para expandir uno de los productos de Firebase que aparecen (por ejemplo, Analytics) y,
+                luego, haz clic en el vínculo del instructivo que se proporciona (por ejemplo, Registrar un evento de
+                Analytics).</p>
+            <p>4. Haz clic en Conectar a Firebase a fin de registrar tu app con un proyecto de Firebase nuevo o
+                existente y para agregar automáticamente los archivos y el código necesarios al proyecto de Android.</p>
+            <p>5. Comprueba que las versiones de tus complementos y bibliotecas sean las más recientes:</p>
+            <p>- Comprueba que la versión de tu complemento de Google Services sea la más reciente
+                (com.google.gms:google-services:4.2.0) en el archivo Gradle (build.gradle) de nivel de raíz (nivel de
+                proyecto):</p>
+            <p>- Comprueba que las versiones de las bibliotecas de Firebase para Android sean las más recientes en el
+                archivo Gradle (generalmente app/build.gradle) del módulo (nivel de app).</p>
+            <p>6. Sincroniza tu app para garantizar que todas las dependencias tengan las versiones necesarias.</p>
+            <p>7. Ve a la Configuración del proyecto en Firebase console a fin de establecer la configuración para
+                compartir datos de Analytics.
+                A fin de usar productos como Firebase Predictions o Firebase A/B Testing se debe habilitar la función
+                para compartir datos de Analytics con otros productos de Firebase.</p>
+            <p>8. Ejecuta la app para enviar la verificación a Firebase de que lo integraste correctamente.</p>
+            <p>En los registros de tu dispositivo, se mostrará la verificación de Firebase que indica que se completó
+                la inicialización. Si ejecutaste tu app en un emulador que tiene acceso a redes, Firebase console
+                notificará que se completó la conexión de tu app.</p>
+
+
+        </article>
+    </section>
+    <footer>
+        <h4>Referencias</h4>
+        <a href="https://firebase.google.com/docs/android/setup?hl=es-419">Firebase Documentation,</a>
+        <a href="https://seocom.agency/es/blog/que-es-firebase-como-puedo-hacer-la-integracion-con-una-aplicacion-android/">¿Qué
+            es Firebase?,</a>
+        <a href="https://solidgeargroup.com/firebase-da-vida-tus-aplicaciones?lang=es">Firebase</a>
+    </footer>
+</body>
+
+</html>
